@@ -20,6 +20,7 @@ import {
 } from 'redux-oidc';
 import cornerstoneWADOImageLoader from 'cornerstone-wado-image-loader';
 import ExtensionManager from './ExtensionManager';
+import './App.css';
 
 //import Icons from "./images/icons.svg"
 

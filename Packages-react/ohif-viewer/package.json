@@ -106,6 +106,7 @@
     "ohif-core": "^0.2.5",
     "ohif-dicom-microscopy-extension": "^0.0.3",
     "ohif-dicom-pdf-extension": "^0.0.3",
+    "moment": "^2.24.0",
     "oidc-client": "^1.6.1",
     "prop-types": "^15.6.2",
     "react-bootstrap-modal": "^4.2.0",
