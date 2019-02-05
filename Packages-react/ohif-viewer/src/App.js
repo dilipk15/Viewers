@@ -18,6 +18,7 @@ import {
   createUserManager,
   reducer as oidcReducer
 } from 'redux-oidc';
+import timepointManager from './redux/timepointManager';
 import cornerstoneWADOImageLoader from 'cornerstone-wado-image-loader';
 import ExtensionManager from './ExtensionManager';
 import './App.css';
@@ -29,6 +30,7 @@ const Icons = '/icons.svg';
 let reducers = OHIF.redux.reducers;
 reducers.ui = ui;
 reducers.oidc = oidcReducer;
+reducers.timepointManager = timepointManager;
 
 const combined = combineReducers(reducers);
 const store = createStore(combined, loadState());
